@@ -15,6 +15,7 @@
 		7F52707C1F134CE90020A112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F52707A1F134CE90020A112 /* LaunchScreen.storyboard */; };
 		7F5270871F134CE90020A112 /* FFAnimatedImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5270861F134CE90020A112 /* FFAnimatedImageDemoTests.m */; };
 		7F5270921F134CE90020A112 /* FFAnimatedImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5270911F134CE90020A112 /* FFAnimatedImageDemoUITests.m */; };
+		7F5270A21F134D8B0020A112 /* FFAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5270A11F134D8B0020A112 /* FFAnimatedImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7F52708D1F134CE90020A112 /* FFAnimatedImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFAnimatedImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F5270911F134CE90020A112 /* FFAnimatedImageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFAnimatedImageDemoUITests.m; sourceTree = "<group>"; };
 		7F5270931F134CE90020A112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F5270A01F134D8B0020A112 /* FFAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFAnimatedImageView.h; sourceTree = "<group>"; };
+		7F5270A11F134D8B0020A112 /* FFAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFAnimatedImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 		7F52709F1F134D0F0020A112 /* FFAnimatedImage */ = {
 			isa = PBXGroup;
 			children = (
+				7F5270A01F134D8B0020A112 /* FFAnimatedImageView.h */,
+				7F5270A11F134D8B0020A112 /* FFAnimatedImageView.m */,
 			);
 			name = FFAnimatedImage;
 			path = ../FFAnimatedImage;
@@ -283,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F5270741F134CE90020A112 /* ViewController.m in Sources */,
+				7F5270A21F134D8B0020A112 /* FFAnimatedImageView.m in Sources */,
 				7F5270711F134CE90020A112 /* AppDelegate.m in Sources */,
 				7F52706E1F134CE90020A112 /* main.m in Sources */,
 			);
