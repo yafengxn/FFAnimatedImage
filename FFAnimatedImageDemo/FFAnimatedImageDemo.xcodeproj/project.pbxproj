@@ -16,6 +16,8 @@
 		7F5270871F134CE90020A112 /* FFAnimatedImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5270861F134CE90020A112 /* FFAnimatedImageDemoTests.m */; };
 		7F5270921F134CE90020A112 /* FFAnimatedImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5270911F134CE90020A112 /* FFAnimatedImageDemoUITests.m */; };
 		7F5270A21F134D8B0020A112 /* FFAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5270A11F134D8B0020A112 /* FFAnimatedImageView.m */; };
+		7F5271231F15FEB90020A112 /* FFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5271221F15FEB90020A112 /* FFImage.m */; };
+		7F5271261F160A7F0020A112 /* FFImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5271251F160A7F0020A112 /* FFImageDecoder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		7F5270931F134CE90020A112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F5270A01F134D8B0020A112 /* FFAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFAnimatedImageView.h; sourceTree = "<group>"; };
 		7F5270A11F134D8B0020A112 /* FFAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFAnimatedImageView.m; sourceTree = "<group>"; };
+		7F5271211F15FEB90020A112 /* FFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFImage.h; sourceTree = "<group>"; };
+		7F5271221F15FEB90020A112 /* FFImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFImage.m; sourceTree = "<group>"; };
+		7F5271241F160A7F0020A112 /* FFImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFImageDecoder.h; sourceTree = "<group>"; };
+		7F5271251F160A7F0020A112 /* FFImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFImageDecoder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +155,10 @@
 			children = (
 				7F5270A01F134D8B0020A112 /* FFAnimatedImageView.h */,
 				7F5270A11F134D8B0020A112 /* FFAnimatedImageView.m */,
+				7F5271211F15FEB90020A112 /* FFImage.h */,
+				7F5271221F15FEB90020A112 /* FFImage.m */,
+				7F5271241F160A7F0020A112 /* FFImageDecoder.h */,
+				7F5271251F160A7F0020A112 /* FFImageDecoder.m */,
 			);
 			name = FFAnimatedImage;
 			path = ../FFAnimatedImage;
@@ -287,6 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F5271261F160A7F0020A112 /* FFImageDecoder.m in Sources */,
+				7F5271231F15FEB90020A112 /* FFImage.m in Sources */,
 				7F5270741F134CE90020A112 /* ViewController.m in Sources */,
 				7F5270A21F134D8B0020A112 /* FFAnimatedImageView.m in Sources */,
 				7F5270711F134CE90020A112 /* AppDelegate.m in Sources */,
